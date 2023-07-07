@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Login from "./login";
 import "./App.css";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       <div></div>
-      <h1>Welcome to Foodicy</h1>
+      <h1>Welcome to Meal Master</h1>
+      <Login />
       <div></div>
     </>
   );
